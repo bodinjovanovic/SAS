@@ -1,0 +1,12 @@
+$primaryBtn: rgb(29, 192, 51);
+$textColor: rgb(201, 43, 43); 
+
+.contact button {
+    background: $primaryBtn;
+}
+
+.contact {
+    @include flexCenter();
+}
+
+@import "./header";
